@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    margin:auto;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 900px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+   margin: 10px;
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    border-radius: 10px;
+    color: #ffffff;
+    padding-left: 15px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+div{
+    display: block;
+}
+
+p {
+    margin: 0px;
+   margin-top: -5px;
+}
+
+.sim {
+    width: 50px;
+    padding-top: 35px;
+    margin-left:-5px;
+
+}
+
+.num {
+   
+    font-size: 25px;
+    margin-top: -5px;
+   margin: -10px;
+   padding-bottom: 5px;
+}
+
+
+.name {
+    
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom:20px;
+    font-family: monospace;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.visa {
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top:10px;
+}
+.tarix{
+    margin-left:5px;
+}
+
+.valid {
+    font-family:'Tahoma', sans-serif;;
+    font-size: 9px;
+    display: block;
+    margin: 0;
+    margin-block-start:10px;
+    margin-block-end: 1em;
+
+}
+.card:first-child{
+    background-color: #8e44ad;
+}
+.card:nth-child(2){
+    background-color: #009432;
+}
+.card:nth-child(3){
+    background-color: #0652DD;
+}
+.card:last-child{
+    background-color: #161617;
+}
