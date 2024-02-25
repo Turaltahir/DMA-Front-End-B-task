@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.google {
+    margin-top: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: auto;
+    margin-inline: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    color: #5f6368;
+}
+
+i {
+    color: gray;
+    margin-right: 20px;
+}
+
+.input-i {
+    display: flex;
+    cursor: pointer;
+}
+
+.head-buton {
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    background-color: #1a73e8;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.img-icon:hover {
+    border-radius: 50%;
+    background-color: rgba(60, 64, 67, .08);
+    justify-content: center;
+    align-items: center;
+}
+
+.google-logo {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 30px;
+    height: 50px;
+    width: calc(100%/12*5);
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.in-input {
+    margin: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.butons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.btn:hover {
+    border: 1px solid #dadce0;
+}
+
+.language {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13%;
+}
+
+.languages {
+    margin-left: 5px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.footer {
+    display: flex;
+}
+
+.left {
+    width: calc(100%/12*6);
+    margin-right: 50%;
+}
+
+.right {
+    width: calc(100%/12*6);
+}
+
+hr {
+    color: #e6e6e6;
+}
