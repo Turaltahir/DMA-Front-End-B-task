@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    background-color: rgb(42, 4, 47);
+    padding: 260px 0 130px;
+}
+h1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 60px;
+
+}
+
+.desc {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(42, 4, 47);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-child {
+    width: calc(100%/12*3);
+    flex-direction: row;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 46px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid violet;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sider-bar {
+    border:1px solid gray;
+ width: 400px;
+    height: 400px;
+    margin-top: -140px;
+    position: sticky;
+    border-radius: 6px;
+    background-color: #fafafa;
+    top:50px;
+    box-shadow: 0 5px 29px 0 rgba(0, 0, 0, .21);
+}
+
+.head-siderbar {
+    background-color: #8f00ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+.sidebar-h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.sidebar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.sidebar-item p {
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main {
+    position: relative;
+}

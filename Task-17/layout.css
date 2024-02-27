@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    margin-right:30px;
+    margin-left:30px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.col-6{
+    width: calc(100%/12*6);
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    margin-right: 40px;
+    margin-left: 40px;
+    position: relative;
+}
+
+
+
