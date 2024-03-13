@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:"Roboto",Arial,sans-serif;
+    background-color:#f8f8f8;
+}
+
+ul,
+ol {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+span{
+    color:white;
+}
